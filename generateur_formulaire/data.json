@@ -1,0 +1,5 @@
+{
+    "label": "Utiliser la zone de texte pour definir <em>le texte a inserer dans le label</em> puis cliquer sur <b>OK</b> pour l'afficher dans la partie gauche ou sur <b>Annuler</b> pour annuler l'insertion du <em>label</em>",
+    "textfield": "Utiliser la zone de texte pour definir <em>l'id de la zone de texte</em> puis cliquer sur <b>OK</b> pour l'afficher dans la partie gauche ou sur <b>Annuler</b> pour annuler l'insertion du <em>champ de texte</em>",
+    "button": "Utiliser la zone de texte pour definir <em>le texte du bouton</em> puis cliquer sur <b>OK</b> pour l'afficher dans la partie gauche ou sur <b>Annuler</b> pour annuler l'insertion du <em>bouton</em>"
+}

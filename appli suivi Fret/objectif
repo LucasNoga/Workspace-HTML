@@ -1,0 +1,107 @@
+Application de gestion et de suivi de fret en ligne. Cette application vient
+combler les lacunes du système de groupage maritime actuel  vers l'Afrique.
+Cette application sera disponible en version Web (HTML 5)
+Cette application peut être utilisée par plusieurs sociétés de Groupage
+Maritime sans conflit en leur garantissant un totale confidentialité de leur
+donnée. L'utilisateur se rendant sur le site d'une société de groupage
+maritime, ne verra que les informations propres à cette société.
+Fonctionnalités proposées:
+"       Colissage en ligne
+"       Règlement en ligne ou réservation
+"       Rendez-vous retrait Colis
+"       Tracking du colis
+"       Livraison du Colis.
+
+Le groupage par fret maritime est une activité qui consiste à proposer le fret
+maritime par conteneur en fonction du volume (m3) occupé. Le service est donc
+proposé à des particuliers qui ne règlent que le volume (m3) nécessaire pour
+leur colis. Ce service inclut ou non le dédouanement de la marchandise selon
+son type.
+
+Le calcul du montant à régler est le plus souvent fonction du volume occupé au
+sein du conteneur. Ainsi on prend le volume total du colis que l'on multiplie
+par un tarif selon le type de produit (Neuf, occasion) et la destination du
+colis.
+
+Colissage en Ligne
+L'application permettra à un utilisateur de se créer un compte, la création
+d'un compte nécessite des informations obligatoires.
+Information utilisateur : Nom, Prénom, Numéro de Mobile et Adresse Mail,
+possibilité d'y rajouter une photo.
+Gestion des adresses de livraison/ Destinataire de livraison :
+Nom, prénom, Adresse (Le pays d'envoi est obligatoire), le mail du destinataire
+du colis et son mobile (Obligatoire aussi)
+
+Gestion des Colis
+L'utilisateur aura la possibilité de gérer ses envois / colis dans sur son
+compte utilisateur.
+Règlement en ligne ou réservation :
+L'utilisateur aura la possibilité d'envoyer son colis en ligne. L'envoi peut se
+faire directement depuis son compte ou hors compte (pour les nouveaux clients)
+en cliquant sur le lien " Expédier un nouveau colis ".
+Il devra alors renseigner les dimensions de son colis (dans le cas d'un coli
+dans un format carton) ou le type de colis pour les colis dont le prix est
+prédéfini (Congélateur, Téléviseur, véhicule..), puis il devra renseigner
+l'adresse de livraison ou sélectionner un destinataire dans sa liste de
+destinataire prédéfini), ensuite il devra renseigner le contenu de son colis
+dans un liste prédéfinie, plusieurs choix multiples, il pourra aussi renseigner
+" autre " et un champ texte apparaitra lui permettant de renseigner
+manuellement l'information, si son contenu n'est pas disponible dans la liste
+des choix.
+Puis il devra en option, choisir une date d'enlèvement du colis (moyennant un
+supplément ou gratuit suivant un montant par rapport à partir de 200€ à
+définir) ou le dépôt en entrepôt (L'adresse lui sera donnée), puis il aura à
+choisir le mode de livraison de son colis une fois arrivé au pays du
+destinataire (Retrait en agence ou livraison au domicile moyennant un
+supplément (à définir).
+L'utilisateur devra aussi accepter les conditions générales et cocher la case
+indiquant l'acceptation du fait que son colis ne contient aucun produit prohibé
+ou aucun alcool.
+Il pourra alors régler, plusieurs moyens de paiement disponibles et aussi la
+possibilité de payer à l'enlèvement. Une confirmation lui sera transmise par
+mail avec toutes les informations concernant son colis (informations client,
+dimension et contenu colis, date de passage du transporteur dans le cas d'un
+retrait à domicile ou adresse de l'entrepôt dans le cas où le client a choisi
+de déposer lui-même son colis à l'entrepôt par ses propres moyens), une facture
+sera aussi générée et envoyer à ce dernier.
+Dans le cas où le client aura sélectionné le retrait du colis à son domicile
+par un transporteur, Le jour de retrait, le transporteur se présentera au
+domicile du client avec une copie de la confirmation, il vérifiera les
+dimensions du colis (Longueur, largeur, hauteur), procédera à l'enlèvement du
+colis contre signature / paiement (si le client avait sélectionné paiement à
+l'enlèvement). Une facture sera aussi générée et envoyer à ce dernier.
+Une fois le transporteur parti, le client recevra un mail / sms de confirmation
+de l'enlèvement du colis. Une fois le transporteur arrivé à l'entrepôt, le
+client recevra un mail / sms lui notifiant que son colis est arrivé /
+enregistré à l'entrepôt avec un lien pour suivre / tracker son colis. Il
+recevra aussi un mail / sms avec la date prévisionnelle de chargement de son
+colis dans un conteneur.
+Puis le client sera informé à chaque étape d'acheminement du colis vers sa
+destination. Les états ci-dessous seront notifiés :
+Noter que tout au long de son trajet le client aura la possibilité de suivre le
+transport de son colis jusqu'à son lieu de destination. Il disposera d'une
+image matérialisant le parcours de son colis avec leur différent état
+d'expédition.
+Colis chargé dans le conteneur : lorsque le colis du client sera chargé dans le
+conteneur.
+Colis en transit : lorsque le colis sera sur le bateau pour sa destination, il
+lui sera transmis une date prévisionnelle d'arrivée du colis dans son pays de
+destination.
+Colis arrivé au port de destination : lorsque le conteneur sera arrivé à son
+port de destination
+Colis en dédouanement : lorsque le conteneur sera en pleine procédure douanière
+(dédouanement)
+Colis disponible à l'enlèvement : lorsque le colis est disponible au retrait à
+l'entrepôt dans le cas où le client avait sélectionné le retrait au site
+d'entrepôt
+Rdv de livraison effectué : dans le cas où le client avait sélectionné une
+livraison au pays de destination au domicile de son destinataire. Dans ce cas
+le destinataire recevra un mail / sms l'invitant à  prendre rdv pour se faire
+livré le colis à son domicile. Une fois le RDV pris, le destinataire recevra un
+mail / sms confirmant la date et le lieu de livraison du colis. Le client qui a
+expédié le colis, recevra aussi un mail lui informant de la date de rdv pour la
+livraison de colis à son destinataire.
+Colis livré : le client recevra un mail /sms lui informant que sn colis a été
+livré avec les informations du destinataire, lieu et date de livraison.
+Il recevra par ailleurs un mail avec une enquête de satisfaction et aussi il
+sera invité à noter / donner son avis sur son opération sur le site.

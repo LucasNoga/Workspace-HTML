@@ -1,0 +1,14 @@
+module.exports = class Google{
+	
+	static match(message){
+		return message.content.startsWith('google')
+	}
+
+	static action(message){
+		let args = message.content.split(' ')
+		args.shift()
+		console.log(args)
+		message.reply('https://ww.google.fr/#q=' + args.join('%20')) 
+	}
+
+}
